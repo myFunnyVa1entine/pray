@@ -5,8 +5,8 @@ export default function App({ Component }: PageProps) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>paper_pray_fresh_project</title>
         <link rel="stylesheet" href="/styles.css" />
+        <title>paper_pray_fresh_project</title>
       </head>
       <body>
         <Component />
