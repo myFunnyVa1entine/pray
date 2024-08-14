@@ -4,7 +4,9 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $_layout from "./routes/_layout.tsx";
 import * as $about_index from "./routes/about/index.tsx";
+import * as $artists_name_ from "./routes/artists/[name].tsx";
 import * as $artists_index from "./routes/artists/index.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $introduce_index from "./routes/introduce/index.tsx";
@@ -19,7 +21,9 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/_layout.tsx": $_layout,
     "./routes/about/index.tsx": $about_index,
+    "./routes/artists/[name].tsx": $artists_name_,
     "./routes/artists/index.tsx": $artists_index,
     "./routes/index.tsx": $index,
     "./routes/introduce/index.tsx": $introduce_index,
