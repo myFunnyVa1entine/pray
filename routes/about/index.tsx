@@ -1,7 +1,6 @@
-import Layout from "../../components/Layout.tsx";
-
 export default function Home() {
-  return <Layout>
-    about page
-  </Layout>
+  const hi = 'layout success!'
+  return <section class='layout text-center h-screen-body dark:text-white dark:bg-black'>
+    about page {hi}
+  </section>
 }
