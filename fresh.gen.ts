@@ -2,16 +2,15 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $_pages_layout from "./routes/(pages)/_layout.tsx";
+import * as $_pages_about_index from "./routes/(pages)/about/index.tsx";
+import * as $_pages_artists_name_ from "./routes/(pages)/artists/[name].tsx";
+import * as $_pages_artists_index from "./routes/(pages)/artists/index.tsx";
+import * as $_pages_introduce_index from "./routes/(pages)/introduce/index.tsx";
+import * as $_pages_party_index from "./routes/(pages)/party/index.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
-import * as $_layout from "./routes/_layout.tsx";
-import * as $about_index from "./routes/about/index.tsx";
-import * as $artists_name_ from "./routes/artists/[name].tsx";
-import * as $artists_index from "./routes/artists/index.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $introduce_index from "./routes/introduce/index.tsx";
-import * as $party_index from "./routes/party/index.tsx";
-import * as $programs_index from "./routes/programs/index.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $Menus from "./islands/Menus.tsx";
 import * as $Mode from "./islands/Mode.tsx";
@@ -19,16 +18,15 @@ import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
+    "./routes/(pages)/_layout.tsx": $_pages_layout,
+    "./routes/(pages)/about/index.tsx": $_pages_about_index,
+    "./routes/(pages)/artists/[name].tsx": $_pages_artists_name_,
+    "./routes/(pages)/artists/index.tsx": $_pages_artists_index,
+    "./routes/(pages)/introduce/index.tsx": $_pages_introduce_index,
+    "./routes/(pages)/party/index.tsx": $_pages_party_index,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
-    "./routes/_layout.tsx": $_layout,
-    "./routes/about/index.tsx": $about_index,
-    "./routes/artists/[name].tsx": $artists_name_,
-    "./routes/artists/index.tsx": $artists_index,
     "./routes/index.tsx": $index,
-    "./routes/introduce/index.tsx": $introduce_index,
-    "./routes/party/index.tsx": $party_index,
-    "./routes/programs/index.tsx": $programs_index,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
