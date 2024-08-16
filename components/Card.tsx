@@ -18,10 +18,9 @@ export default function Card() {
           <h2 class='text-[1.5rem]'>{artist.name.kor}{' '}{artist.name.eng}</h2>
         </div>
         <div class='w-full h-auto flex justify-center items-center my-4'>
-          <img src={`/JH_artists/${artist.src}.jpeg`} class='w-full object-contain rounded-xl' alt={artist.name.eng} />
+          <img src={`/JH_artists/${artist.src}.jpeg`} class='w-full object-contain rounded' alt={artist.name.eng} />
         </div>
-        <div class='text-start'>{artist.desc ? <em>{artist.desc}</em> : '-'}
-        </div>
+        <div class='text-start mb-10'>{artist.desc ? <em>{artist.desc}</em> : ''}</div>
     </div>
     })}
   </section>
