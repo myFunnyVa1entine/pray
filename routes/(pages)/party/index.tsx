@@ -18,11 +18,11 @@ export default function Hone() {
     </article>
 
     <p class='pb-4 pt-8 font-gosha'>타임라인 TIMELINE</p>
-    <ol class='-z-10 relative border-l border-[#abaaed] pl-5 ml-2 last:border-0 last:pb-0 list:none my-2'>
+    <ol class='z-0 relative border-l border-[#abaaed] pl-5 ml-2 last:border-0 last:pb-0 list:none my-2'>
       <li class="absolute -left-2 top-1 w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
       <li class="absolute -left-2 top-[7.75rem] w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
       <li class="absolute -left-2 top-[15.25rem] w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
-      <li>전시 소개 및 인사</li>
+      <li class='dark:text-white'>전시 소개 및 인사</li>
       <li>오프닝 퍼포먼스 | 이지예 (뭐라고 적을까?)</li>
       <li>전시 소개 | 임나은 (페이퍼 그라운드 대표)</li>
       <li>아뜰리에 소개 | 김미진 (아브리 아뜰리에 대표)</li>
