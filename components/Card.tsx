@@ -11,7 +11,7 @@ interface IArtists {
 const artists: IArtists[] = my_artists;
 
 export default function Card() {
-  return <section class='overflow-auto'>
+  return <section class='overflow-auto font-gosha'>
     {artists.map((artist:IArtists) => {
       return <div class='m-4 p-4' key={artist.src}>
         <div class='flex gap-4 items-end'>

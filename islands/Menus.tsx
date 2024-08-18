@@ -10,7 +10,7 @@ export default function Menus() {
     {id: 3, name:'오프닝 파티', href: '/party'},
     {id: 4, name:'shop', href: 'https://smartstore.naver.com/paperground'},
   ]
-  return <nav class='relative flex justify-between items-center p-4 dark:bg-black dark:text-white'>
+  return <nav class='relative flex justify-between items-center p-4 dark:bg-black dark:text-white font-gosha'>
     <a href="/">
       <img src='/circle_logo.png' alt='logo image' class='w-10 h-10' />
     </a>
