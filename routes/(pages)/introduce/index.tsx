@@ -2,7 +2,7 @@ export default function Hone() {
   return <section class='layout h-screen-body dark:text-white dark:bg-black p-4 overflow-auto'>
   
   <h1 class='text-[1.75rem]'>이것은 틀림없는 기도</h1>
-  <h3 class='text-[1.125rem]'>That’s a prayer, undoubtfully.</h3>
+  <h3 class='text-[1.125rem] font-gosha'>That’s a prayer, undoubtfully.</h3>
   <article>
       <p class='my-12'>우리는 기도를 한다. 가족의 건강, 개인의 영달, 지구의 평화 등 수많은 것들을 위해. 
       </p>
