@@ -9,6 +9,9 @@ export default {
       height: {
         'screen-body': 'calc(100vh - 4.5rem)',
       },
+      fontFamily: {
+        gosha: ['Gosha Sans', 'sans-serif'],
+      },
     },
   },
   darkMode: 'class',
