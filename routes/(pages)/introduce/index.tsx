@@ -1,6 +1,5 @@
 export default function Hone() {
-  return <section class='layout h-screen-body text-white bg-black p-4 overflow-auto'>
-  
+  return <section class='layout h-auto text-white bg-black p-4'>
   <h1 class='text-[1.75rem]'>이것은 틀림없는 기도</h1>
   <h3 class='text-[1.125rem] pb-8'>That’s a prayer, undoubtfully.</h3>
   <article>
