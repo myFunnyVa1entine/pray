@@ -4,23 +4,19 @@
 
 import * as $_pages_layout from "./routes/(pages)/_layout.tsx";
 import * as $_pages_about_index from "./routes/(pages)/about/index.tsx";
-import * as $_pages_artists_name_ from "./routes/(pages)/artists/[name].tsx";
 import * as $_pages_artists_index from "./routes/(pages)/artists/index.tsx";
 import * as $_pages_introduce_index from "./routes/(pages)/introduce/index.tsx";
 import * as $_pages_party_index from "./routes/(pages)/party/index.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $Counter from "./islands/Counter.tsx";
 import * as $Menus from "./islands/Menus.tsx";
-import * as $Mode from "./islands/Mode.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/(pages)/_layout.tsx": $_pages_layout,
     "./routes/(pages)/about/index.tsx": $_pages_about_index,
-    "./routes/(pages)/artists/[name].tsx": $_pages_artists_name_,
     "./routes/(pages)/artists/index.tsx": $_pages_artists_index,
     "./routes/(pages)/introduce/index.tsx": $_pages_introduce_index,
     "./routes/(pages)/party/index.tsx": $_pages_party_index,
@@ -29,9 +25,7 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
-    "./islands/Counter.tsx": $Counter,
     "./islands/Menus.tsx": $Menus,
-    "./islands/Mode.tsx": $Mode,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
