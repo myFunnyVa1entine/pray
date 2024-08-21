@@ -10,17 +10,17 @@ export default function Menus() {
     {id: 3, name:'오프닝 파티', href: '/party'},
     {id: 4, name:'shop', href: 'https://smartstore.naver.com/paperground'},
   ]
-  return <nav class='relative flex justify-between items-center p-4 dark:bg-black dark:text-white font-gosha'>
+  return <nav class='relative flex justify-between items-center p-4 bg-black text-white z-10'>
     <a href="/">
       <img src='/circle_logo.png' alt='logo image' class='w-10 h-10' />
     </a>
     <figure onClick={handle_click}
-      class={`z-20 duration-500 hover:cursor-pointer border border-black rounded-full ${menuOpen ? 'rotate-45 duration-500': 'rotate-0'} dark:border-white`}>
+      class={`z-20 duration-500 hover:cursor-pointer border border-black rounded-full ${menuOpen ? 'rotate-45 duration-500': 'rotate-0'} border-white`}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class='size-8'>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
       </svg>
     </figure>
-    <ol className={`z-10 fixed top-0 left-0 right-0 bottom-0 bg-white duration-500 transition flex flex-col h-screen justify-center gap-12 text-lg dark:bg-black ${menuOpen ? "translate-y-0" : "-translate-y-full"}`}>
+    <ol className={`z-10 fixed top-0 left-0 right-0 bottom-0 duration-500 transition flex flex-col h-screen justify-center gap-12 text-lg bg-black ${menuOpen ? "translate-y-0" : "-translate-y-full"}`}>
       {list_name.map(list => <a
         key={list.id}
         href={list.href}
