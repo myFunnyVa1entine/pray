@@ -1,12 +1,9 @@
-import Mode from "../islands/Mode.tsx";
-
 export default function Home() {
-  return <main class='dark:bg-black w-screen h-screen antialiased duration-300'>
+  return <main class='bg-black w-screen h-screen antialiased duration-300 font-gosha'>
     <a href='/introduce' class='flex justify-center items-center h-screen'>
       <image
-        class='w-2/3 h-auto'
+        class='w-[90%] h-[60%]'
         src='/brochure.gif' alt='main poster' />
     </a>
-    <Mode />
   </main>
 }
