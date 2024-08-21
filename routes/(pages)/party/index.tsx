@@ -1,14 +1,14 @@
 export default function Hone() {
   return <section class='layout h-screen-body dark:text-white dark:bg-black overflow-auto p-4'>
     <h1 class='text-[1.5rem]'>전시 오프닝</h1>
-    <h3 class='text-[1rem] font-gosha'>OPENING CEREMONY</h3>
+    <h3 class='text-[1rem]'>OPENING CEREMONY</h3>
     <article class='py-4'>
       <p>서울을 베이스로 활동하는 페이퍼 그라운드.</p>
       <p>장흥을 베이스로 활동하는 아브리 아뜰리에.</p>
       <p>이 두 곳과 연을 가지고 활동중인 예술가/문화예술기획자 친구들의 네트워크 파티이자 공연으로 진행됩니다.</p>  
     </article>
 
-    <article class='py-4 font-gosha'>
+    <article class='py-4'>
       <p>일시 및 장소 DATE & LOCATION</p>
     </article>
 
@@ -17,7 +17,7 @@ export default function Hone() {
       <p>아브리 아뜰리에</p>
     </article>
 
-    <p class='pb-4 pt-8 font-gosha'>타임라인 TIMELINE</p>
+    <p class='pb-4 pt-8'>타임라인 TIMELINE</p>
     <ol class='z-0 relative border-l border-[#abaaed] pl-5 ml-2 last:border-0 last:pb-0 list:none my-2'>
       <li class="absolute -left-2 top-1 w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
       <li class="absolute -left-2 top-[7.75rem] w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />

@@ -1,6 +1,6 @@
 export default function Home() {
   return <section class='layout h-screen-body dark:text-white dark:bg-black '>
-    <article class='p-4 font-gosha'>
+    <article class='p-4'>
       <h1 class='text-lg'>모험하는 아티스트와 콜렉터들의 놀이터</h1>
       <h3 class='text-xl'>페이퍼 그라운드</h3>
     < br/>

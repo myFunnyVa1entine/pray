@@ -12,8 +12,7 @@ interface IArtists {
 const artists: IArtists[] = my_artists;
 
 export default function Home() {
-  return <section class='layout text-center overflow-auto dark:text-white dark:bg-black'>
-    <section class='overflow-auto font-gosha'>
+  return <section class='layout text-center dark:text-white dark:bg-black'>
     {artists.map((artist:IArtists) => {
       return <div class='m-4 p-4' key={artist.src}>
         <div class='flex gap-4 items-end'>
@@ -25,6 +24,5 @@ export default function Home() {
         <div class='text-start mb-10'>{artist.desc ? <em>{artist.desc}</em> : ''}</div>
     </div>
     })}
-  </section>
   </section>
 }
