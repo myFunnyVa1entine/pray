@@ -1,5 +1,5 @@
 export default function Hone() {
-  return <section class='layout h-screen text-white bg-black px-6 pt-16 pb-32'>
+  return <section class='layout h-auto text-white bg-black px-6 pt-16 pb-32'>
     <h1 class='text-[1.5rem]'>전시 오프닝</h1>
     <h3 class='text-[1rem]'>OPENING CEREMONY</h3>
     <article class='py-4'>
