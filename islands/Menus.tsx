@@ -12,7 +12,7 @@ export default function Menus() {
   ]
   return <nav class='fixed p-4 bg-black text-white z-10 w-full h-16'>
     <a href="/" class='absolute left-6 top-4'>
-      <img src='/circle_logo.png' alt='logo image' class='w-9 h-9' />
+      <img src='/circle_logo.png' alt='logo image' class='w-10 h-10' />
     </a>
     <figure onClick={handle_click}
       class={`z-20 absolute right-6 top-4 w-[34px] duration-500 hover:cursor-pointer border border-black rounded-full ${menuOpen ? 'rotate-45 duration-500': 'rotate-0'} border-white`}>
