@@ -10,12 +10,12 @@ export default function Menus() {
     {id: 3, name:'오프닝 파티', href: '/party'},
     {id: 4, name:'shop', href: 'https://smartstore.naver.com/paperground'},
   ]
-  return <nav class='relative flex justify-between items-center p-4 bg-black text-white z-10'>
-    <a href="/">
-      <img src='/circle_logo.png' alt='logo image' class='w-10 h-10' />
+  return <nav class='fixed p-4 bg-black text-white z-10 w-full h-16'>
+    <a href="/" class='absolute left-6 top-4'>
+      <img src='/circle_logo.png' alt='logo image' class='w-9 h-9' />
     </a>
     <figure onClick={handle_click}
-      class={`z-20 duration-500 hover:cursor-pointer border border-black rounded-full ${menuOpen ? 'rotate-45 duration-500': 'rotate-0'} border-white`}>
+      class={`z-20 absolute right-6 top-4 w-[34px] duration-500 hover:cursor-pointer border border-black rounded-full ${menuOpen ? 'rotate-45 duration-500': 'rotate-0'} border-white`}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class='size-8'>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
       </svg>

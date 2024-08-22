@@ -1,5 +1,5 @@
 export default function Hone() {
-  return <section class='layout h-screen-body dark:text-white dark:bg-black overflow-auto p-4'>
+  return <section class='layout h-screen text-white bg-black px-6 pt-16 pb-32'>
     <h1 class='text-[1.5rem]'>전시 오프닝</h1>
     <h3 class='text-[1rem]'>OPENING CEREMONY</h3>
     <article class='py-4'>
@@ -22,22 +22,21 @@ export default function Hone() {
       <li class="absolute -left-2 top-1 w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
       <li class="absolute -left-2 top-[7.75rem] w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
       <li class="absolute -left-2 top-[15.25rem] w-4 h-4 bg-white border border-[#4e5ed3] rounded-full shadow-[3px_3px_0px_#bab5f8]" />
-      <li class='dark:text-white'>전시 소개 및 인사</li>
-      <li>오프닝 퍼포먼스 | 이지예 (뭐라고 적을까?)</li>
+      <li class='text-white'>전시 소개 및 인사</li>
+      <li>오프닝 퍼포먼스 | 이지예 (스토리 텔러)</li>
       <li>전시 소개 | 임나은 (페이퍼 그라운드 대표)</li>
       <li>아뜰리에 소개 | 김미진 (아브리 아뜰리에 대표)</li>
       <br />
       <li>식사 및 공연</li>
       <li>공연 1 | 싱어송라이터 이지영</li>
-      <li>공연 2 |소리 박운종 & 고수 이명식</li>
+      <li>공연 2 | 소리 박운종 & 고수 이명식</li>
       <li>공연 3 | 디제이 데이즈 보틀</li>
       <br />
-      <li>네트워킹</li>
+      <li>네트워킹 타임</li>
     </ol>
-    <footer class='pt-6'>
+    <footer class='py-6 pb-32'>
       <p>주최•기획 | 아브리 아뜰리에 x 페이퍼 그라운드</p>
       <p>진행 | 이지예</p>
     </footer>
-    
   </section>
 }

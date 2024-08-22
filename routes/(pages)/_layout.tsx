@@ -3,9 +3,9 @@ import Menus from "../../islands/Menus.tsx";
 
 export default function Layout({ Component }: PageProps) {
   return (
-    <div class='text-white bg-black font-gosha'>
+    <section class='text-white bg-black font-gosha'>
       <Menus />
       <Component />
-    </div>
+    </section>
   );
 }

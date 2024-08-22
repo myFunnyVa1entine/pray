@@ -1,5 +1,5 @@
 export default function Hone() {
-  return <section class='layout h-auto text-white bg-black p-4'>
+  return <section class='layout h-auto text-white bg-black px-6 pt-16 pb-32'>
   <h1 class='text-[1.75rem]'>이것은 틀림없는 기도</h1>
   <h3 class='text-[1.125rem] pb-8'>That’s a prayer, undoubtfully.</h3>
   <article>
@@ -55,7 +55,7 @@ export default function Hone() {
       <p class='pt-4 pb-12'>임나은 (페이퍼 그라운드 대표)</p>
       <p>주최 | 아브리 아뜰리에</p>
       <p>기획 | 페이퍼 그라운드</p>
-      <p class='mb-32'>웹페이지 제작 | 이지영</p>
+      <p>웹페이지 제작 | 이지영</p>
     </article>
   </section>
 }
