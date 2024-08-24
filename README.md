@@ -1,6 +1,12 @@
-# Fresh project
+# The project name is Undoubtful Prayer by deno-fresh
 
-this is my first deno-fresh project.
-The project name is 00 Pray.
+### That’s a prayer, undoubtfully.
 
-I'll making the this home page for MY PROJECT TEAM(non-profit organization).
+ABOUT - A playground for adventurous artists and collectors << PAPER GROUND >> && << Abri Atelier >> 's Collaboration introduction page
+INTRO - That’s a prayer, undoubtfully. Introduction page for exhibition planning
+ARTISTS - Page to introduce participating artists
+OPENING CEREMONY - Performance timeline
+
+PROJECT - PAPERGROUND NOW!
+
+
