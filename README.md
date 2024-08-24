@@ -9,7 +9,7 @@ OPENING CEREMONY - Performance timeline
 
 PROJECT - PAPERGROUND NOW!
 
-<a href='https://pray.deno.dev'>틀림없는기도</a>
+<a href='https://pray.deno.dev' target='_blank'>틀림없는기도</a>
 
-<a href='https://pray.deno.dev'>Undoubtful_Prayer</a>
+<a href='https://pray.deno.dev' target='_blank'>Undoubtful_Prayer</a>
 
