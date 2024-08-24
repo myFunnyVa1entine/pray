@@ -4,11 +4,11 @@ export default function Menus() {
   const [menuOpen, setMenuOpen] = useState(false);
   const handle_click = () => setMenuOpen(currentMenu => !currentMenu);
   const list_name = [
-    {id: 0, name:'paper ground', href: '/about'},
-    {id: 1, name:'전시 소개', href: '/introduce'},
-    {id: 2, name:'참여 작가', href: '/artists'},
-    {id: 3, name:'오프닝 파티', href: '/party'},
-    {id: 4, name:'shop', href: 'https://smartstore.naver.com/paperground'},
+    {id: 0, name:'ABOUT', href: '/about'},
+    {id: 1, name:'INTRO', href: '/introduce'},
+    {id: 2, name:'ARTISTS', href: '/artists'},
+    {id: 3, name:'OPENING', href: '/party'},
+    {id: 4, name:'SHOP', href: 'https://smartstore.naver.com/paperground'},
   ]
   return <nav class='fixed p-4 bg-black text-white z-10 w-full h-16'>
     <a href="/" class='absolute left-6 top-4'>
